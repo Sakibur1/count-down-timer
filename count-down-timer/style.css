@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    text-align: center;
+}
+.containerTimer{
+    width:50%;
+    height: 40%;
+    background-color: aqua;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.conttime{
+    font-size: 4rem;
+    margin: 10px;
+    text-align: center;
+}
+.conttime p{
+    font-size: small;
+}
+.a{
+    background-color: tomato;
+}
+.b{
+    background-color: rgb(248, 149, 132);
+}
+.c{
+    background-color: rgb(252, 181, 168);
+}
+.d{
+    background-color: rgb(250, 210, 203);
+}
+@media (max-width:768px) {
+
+    .containerTimer{
+    width:100%;}
+    .conttime{
+        font-size: 3rem;
+        margin: 10px;
+        text-align: center;
+    }
+}
